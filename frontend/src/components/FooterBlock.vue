@@ -21,9 +21,8 @@ export default {
   position: -ms-sticky;
   position: -o-sticky;
   position: sticky;
-  top: calc(100%);
-  margin: 5px;
-  padding: auto;
+  top: calc(98%);
+  margin: 1em;
   text-align: center;
 }
 
@@ -31,5 +30,6 @@ export default {
   display: inline-block;
   vertical-align: middle;
   vertical-align: text-bottom;
+  font-size: calc(1em + 0.5vw);
 }
 </style>

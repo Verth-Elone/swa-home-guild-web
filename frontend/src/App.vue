@@ -2,7 +2,7 @@
   <TitleComponent title="&lt;HOME&gt; - Mirage-Raceway [A]" />
   <div id="app">
     <div id="bg"></div>
-    <HelloWorld msg="Coming Soon!" />
+    <HelloWorld msg="Web is coming soon!" />
     <FooterBlock copyright="© Eclipsion 2022. All rights reserved." />
   </div>
 </template>
