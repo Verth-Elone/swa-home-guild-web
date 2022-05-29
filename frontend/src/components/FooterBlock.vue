@@ -1,13 +1,15 @@
 <template>
   <div id="footer">
-    <p class="footer-p">© Eclipsion 2022. All rights reserved.</p>
+    <p class="footer-p">{{ copyright }}</p>
   </div>
 </template>
 
 <script>
 export default {
   name: "FooterBlock",
-  props: {},
+  props: {
+    copyright: String,
+  },
 };
 </script>
 

@@ -21,7 +21,6 @@ export default {
   position: -ms-sticky;
   position: -o-sticky;
   position: sticky;
-
   margin: 0;
   width: 90%;
   top: calc(45% - 5vh + 5vw);

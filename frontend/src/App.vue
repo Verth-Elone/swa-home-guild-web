@@ -1,18 +1,21 @@
 <template>
+  <TitleComponent title="&lt;HOME&gt; - Mirage-Raceway [A]" />
   <div id="app">
     <div id="bg"></div>
     <HelloWorld msg="Coming Soon!" />
-    <FooterBlock />
+    <FooterBlock copyright="© Eclipsion 2022. All rights reserved." />
   </div>
 </template>
 
 <script>
+import TitleComponent from "./components/TitleComponent.vue";
 import HelloWorld from "./components/HelloWorld.vue";
 import FooterBlock from "./components/FooterBlock.vue";
 
 export default {
   name: "App",
   components: {
+    TitleComponent,
     HelloWorld,
     FooterBlock,
   },
