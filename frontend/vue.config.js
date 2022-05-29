@@ -4,7 +4,7 @@ module.exports = defineConfig({
   pages: {
     index: {
       entry: 'src/App.vue',
-      title: '<HOME> - Mirage Raceway [A]'
+      title: '&lt;HOME&gt; - Mirage Raceway [A]'
     }
   }
 })
